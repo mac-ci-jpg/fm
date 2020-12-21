@@ -8,6 +8,7 @@ defaults:
 jobs:
   build:
     runs-on: macos-latest
+    environment: test
     steps:
     - uses: fastai/workflows/ssh@master
       with:
